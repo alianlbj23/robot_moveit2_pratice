@@ -1,0 +1,9 @@
+/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description/CMakeFiles/uninstall.dir
+/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description/CMakeFiles/myrobot_description_uninstall.dir
+/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description/CMakeFiles/test.dir
+/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description/CMakeFiles/edit_cache.dir
+/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description/CMakeFiles/rebuild_cache.dir
+/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description/CMakeFiles/list_install_components.dir
+/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description/CMakeFiles/install.dir
+/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description/CMakeFiles/install/local.dir
+/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description/CMakeFiles/install/strip.dir

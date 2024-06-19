@@ -1,0 +1,36 @@
+[0.014s] Invoking command in '/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/workspace/ros2_ws/install/robot_arm_control:/home/user/workspace/ros2_ws/install/pros_car_py:/home/user/workspace/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description -- -j16 -l16
+[0.032s] Invoked command in '/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/workspace/ros2_ws/install/robot_arm_control:/home/user/workspace/ros2_ws/install/pros_car_py:/home/user/workspace/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description -- -j16 -l16
+[0.050s] Invoking command in '/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/workspace/ros2_ws/install/robot_arm_control:/home/user/workspace/ros2_ws/install/pros_car_py:/home/user/workspace/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description
+[0.053s] -- Install configuration: ""
+[0.053s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/meshes
+[0.053s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/meshes/link_3_1.stl
+[0.053s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/meshes/base_link.stl
+[0.054s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/meshes/link_4_1.stl
+[0.054s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/meshes/link_2_1.stl
+[0.054s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/meshes/grap1_2_1.stl
+[0.054s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/meshes/grap2_2_1.stl
+[0.054s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/meshes/grap_2_1.stl
+[0.054s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/meshes/grap_1_1.stl
+[0.054s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/meshes/link_1_1.stl
+[0.054s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/urdf
+[0.054s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/urdf/robot_ver6_ver2.gazebo
+[0.054s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/urdf/robot_ver6.xacro
+[0.054s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/urdf/robot_ver6.trans
+[0.055s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/urdf/robot_ver6.gazebo
+[0.055s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/urdf/materials.xacro
+[0.055s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/ament_index/resource_index/package_run_dependencies/myrobot_description
+[0.055s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/ament_index/resource_index/parent_prefix_path/myrobot_description
+[0.055s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/environment/ament_prefix_path.sh
+[0.055s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/environment/ament_prefix_path.dsv
+[0.055s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/environment/path.sh
+[0.055s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/environment/path.dsv
+[0.055s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/local_setup.bash
+[0.055s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/local_setup.sh
+[0.056s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/local_setup.zsh
+[0.056s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/local_setup.dsv
+[0.056s] -- Installing: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/package.dsv
+[0.056s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/ament_index/resource_index/packages/myrobot_description
+[0.056s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/cmake/myrobot_descriptionConfig.cmake
+[0.056s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/cmake/myrobot_descriptionConfig-version.cmake
+[0.057s] -- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/myrobot_description/share/myrobot_description/package.xml
+[0.060s] Invoked command in '/home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/workspace/ros2_ws/install/robot_arm_control:/home/user/workspace/ros2_ws/install/pros_car_py:/home/user/workspace/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/user/workspace/udemy_robot/pratice_ws/build/myrobot_description

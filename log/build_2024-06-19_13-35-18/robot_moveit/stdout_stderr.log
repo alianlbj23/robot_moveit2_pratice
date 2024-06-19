@@ -1,0 +1,30 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/workspace/udemy_robot/pratice_ws/build/robot_moveit
+-- Install configuration: ""
+-- Installing: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/launch
+-- Installing: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/launch/moveit.launch.py
+-- Installing: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/config
+-- Installing: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/config/myrobot.srdf
+-- Installing: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/config/moveit_controllers.yaml
+-- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/ament_index/resource_index/package_run_dependencies/robot_moveit
+-- Installing: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/ament_index/resource_index/parent_prefix_path/robot_moveit
+-- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.sh
+-- Installing: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/environment/path.sh
+-- Installing: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/environment/path.dsv
+-- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/local_setup.bash
+-- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/local_setup.sh
+-- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/local_setup.zsh
+-- Installing: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/local_setup.dsv
+-- Installing: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/package.dsv
+-- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/ament_index/resource_index/packages/robot_moveit
+-- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig.cmake
+-- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig-version.cmake
+-- Up-to-date: /home/user/workspace/udemy_robot/pratice_ws/install/robot_moveit/share/robot_moveit/package.xml

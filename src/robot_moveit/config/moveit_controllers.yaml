@@ -1,0 +1,30 @@
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - arm_controller
+    - gripper_controller
+
+  arm_controller:
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - Revolute 1
+      - Revolute 2
+      - Revolute 3
+      - Revolute 4
+      # - Revolute 6
+      # - Revolute 7
+      # - Revolute 8
+      # - Revolute 9
+
+  gripper_controller:
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - Revolute 6
+      - Revolute 7
+      - Revolute 8
+      - Revolute 9

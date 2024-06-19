@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<robot name="robot_ver6">
+    <group name="arm">
+        <chain base_link="base_link" tip_link="link_4_1"/>
+    </group>
+
+    <group name="gripper">
+        <joint name="Revolute 4"/>
+        <joint name="Revolute 6"/>
+        <joint name="Revolute 7"/>
+        <joint name="Revolute 8"/>
+        <joint name="Revolute 9"/>
+    </group>
+
+    <group_state name="home" group="arm">
+        <joint name="Revolute 1" value="0"/>
+        <joint name="Revolute 2" value="0"/>
+        <joint name="Revolute 3" value="0"/>
+        <joint name="Revolute 4" value="0"/>
+    </group_state>
+
+    <group_state name="home" group="gripper">
+        <joint name="Revolute 6" value="0"/>
+        <joint name="Revolute 7" value="0"/>
+        <joint name="Revolute 8" value="0"/>
+        <joint name="Revolute 9" value="0"/>
+    </group_state>
+</robot>
