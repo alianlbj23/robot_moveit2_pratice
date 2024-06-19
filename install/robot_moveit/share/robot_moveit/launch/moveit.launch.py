@@ -10,17 +10,32 @@ from launch_ros.actions import Node
 def generate_launch_description():
     is_sim_arg = DeclareLaunchArgument("is_sim", default_value="True")
     is_sim = LaunchConfiguration("is_sim")
+    package_share_directory = get_package_share_directory("robot_moveit")
+    myrobot_description_dir = get_package_share_directory("myrobot_description")
+
+    initial_positions = os.path.join(
+        package_share_directory, "config", "initial_position.yaml"
+    )
+
     moveit_config = (
         MoveItConfigsBuilder("myrobot", package_name="robot_moveit")
         .robot_description(
             file_path=os.path.join(
-                get_package_share_directory("myrobot_description"),
+                myrobot_description_dir,
                 "urdf",
                 "robot_ver6.xacro",
+            ),
+            mappings={"initial_positions_file": initial_positions},
+        )
+        .robot_description_semantic(
+            file_path=os.path.join(package_share_directory, "config", "myrobot.srdf")
+        )
+        .trajectory_execution(
+            file_path=os.path.join(
+                package_share_directory, "config", "moveit_controllers.yaml"
             )
         )
-        .robot_description_semantic(file_path="config/myrobot.srdf")
-        .trajectory_execution(file_path="config/moveit_controllers.yaml")
+        .planning_pipelines(pipelines=["ompl"])
         .to_moveit_configs()
     )
 
@@ -36,9 +51,7 @@ def generate_launch_description():
         arguments=["--ros-args", "--log-level", "info"],
     )
 
-    rviz_config = os.path.join(
-        get_package_share_directory("robot_moveit"), "config", "moveit.rviz"
-    )
+    rviz_config = os.path.join(package_share_directory, "config", "moveit.rviz")
 
     rviz_node = Node(
         package="rviz2",
@@ -53,5 +66,17 @@ def generate_launch_description():
             moveit_config.joint_limits,
         ],
     )
+
+    # initial_positions_file = os.path.join(
+    #     package_share_directory, "config", "initial_position.yaml"
+    # )
+
+    # joint_state_publisher_node = Node(
+    #     package="joint_state_publisher",
+    #     executable="joint_state_publisher",
+    #     name="joint_state_publisher",
+    #     output="screen",
+    #     parameters=[{"initial_joint_positions": initial_positions_file}],
+    # )
 
     return LaunchDescription([is_sim_arg, move_group_node, rviz_node])

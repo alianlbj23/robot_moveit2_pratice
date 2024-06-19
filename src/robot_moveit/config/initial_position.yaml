@@ -1,12 +1,22 @@
-robot_initial_positions:
-  group_states:
-    arm:
-      Revolute 1: 3.14
-      Revolute 2: 0.0
-      Revolute 3: 0.0
-      Revolute 4: 0.0
-    gripper:
-      Revolute 6: 0.0
-      Revolute 7: 0.0
-      Revolute 8: 0.0
-      Revolute 9: 0.0
+initial_joint_positions:
+  joint_states:
+    name: [
+      "Revolute 1",
+      "Revolute 2",
+      "Revolute 3",
+      "Revolute 4",
+      "Revolute 6",
+      "Revolute 7",
+      "Revolute 8",
+      "Revolute 9"
+    ]
+    position: [
+      3.14,  # Revolute 1
+      3.14,  # Revolute 2
+      3.14,  # Revolute 3
+      0.0,  # Revolute 4
+      0.0,  # Revolute 6
+      0.0,  # Revolute 7
+      0.0,  # Revolute 8
+      0.0   # Revolute 9
+    ]
